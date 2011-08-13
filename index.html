@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset=utf-8 />
+    <title>RDStudio</title>
+    <link rel="stylesheet" href="stylesheets/reset-min.css" type="text/css" />
+    <link rel="stylesheet" href="stylesheets/main.css" type="text/css" />
+    <link rel="stylesheet" href="stylesheets/prettyPhoto.css" type="text/css" />
+    <script src="javascripts/jquery-1.6.1.min.js"></script>
+    <script src="javascripts/jquery.prettyPhoto.js" type="text/javascript"></script>
+  </head>
+  <body>
+    <div id="wrap">
+      <header>
+        <hgroup class="wrapper">
+          <h1>RDStudio</h1>
+          <h2>Agence de communication & graphisme</h2>
+        </hgroup>
+        <nav>
+          <ul class="wrapper">
+            <li class="active"><a href="index.html">Accueil</a></li>
+            <li><a href="creation.html">Création</a></li>
+            <li><a href="print.html">Impression</a></li>
+            <li><a href="strategy.html">Stratégie</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+      <section id="content" class="wrapper">
+        <p class="edito">
+          <strong>RDStudio</strong> est votre nouvelle agence de communication et de graphisme<br />
+          Nous vous recevrons dans nos bureaux situés à Namur (Bouge)
+        </p>
+        <section id="categories">
+          <div class="category first creation-cat">
+            <img src="images/creation-cat.jpg" alt="Vitrine de nos bureaux">
+            <h2><a href="creation.html">Création</a></h2>
+            <p>Nous créons votre identité visuelle, votre nouveau site web, des spots publicitaires, tout ce qui vous est utile pour votre business.</p>
+          </div>
+          <div class="category print-cat">
+            <img src="images/print-cat.jpg" alt="Vitrine de nos bureaux">
+            <h2><a href="print.html">Impression</a></h2>
+            <p>Nous réalisons vos impressions sur tout type de support et ce à tout moment.</p>
+          </div>
+          <div class="category strategy-cat">
+            <img src="images/strategy-cat.jpg" alt="Vitrine de nos bureaux">
+            <h2><a href="strategy.html">Stratégie</a></h2>
+            <p>Vous voulez entrer dans un nouveau marché ou démarrer votre activité? Nous avons les outils pour vous conseiller.</p>
+          </div>
+          <div class="category contact-cat">
+            <img src="images/contact-cat.jpg" alt="Vitrine de nos bureaux">
+            <h2><a href="contact.html">Contact</a></h2>
+            <p>Notre équipe est à votre disposition. N’hésitez donc pas à nous contacter!</p>
+            <p class="contact-link"><span><a href="contact.html">contactez-nous</a></span></p>
+          </div>
+        </section>
+        <section id="intro">
+          <h1><a title="Video d'intro" href="http://www.youtube.com/watch?v=6pKEl0Y3ltM" rel="prettyPhoto">Revoir la video</a></h1>
+        </section>
+      </section>
+      <div class="push"></div>
+    </div>
+    <footer>
+      <div class="wrapper">
+        <a href="http://rdstudio.be"><img src="images/logo-mini.png" alt="Logo RDStudio miniature"></a>
+        <a class="social-link" href="https://www.facebook.com/pages/Rd-Studio/183003248417842">.facebook</a>
+      </div>
+    </footer>
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $("a[rel^='prettyPhoto']").prettyPhoto({
+          autoplay: true,
+          default_width: 560,
+          default_height: 349
+        });
+        $("#intro a").click();
+      });
+    </script>
+    <script type="text/javascript">
+
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-18164446-2']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+
+    </script>
+  </body>
+</html>

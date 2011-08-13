@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset=utf-8 />
+    <title>RDStudio</title>
+    <link rel="stylesheet" href="stylesheets/reset-min.css" type="text/css" />
+    <link rel="stylesheet" href="stylesheets/main.css" type="text/css" />
+    <link rel="stylesheet" href="stylesheets/nivo-slider.css" type="text/css" />
+    <script src="javascripts/jquery-1.6.1.min.js"></script>
+    <script src="javascripts/jquery.nivo.slider.pack.js"></script>
+  </head>
+  <body>
+    <div id="wrap">
+      <header>
+        <hgroup class="wrapper">
+          <h1>RDStudio</h1>
+          <h2>Agence de communication & graphisme</h2>
+        </hgroup>
+        <nav>
+          <ul class="wrapper">
+            <li><a href="index.html">Accueil</a></li>
+            <li class="active"><a href="creation.html">Création</a></li>
+            <li><a href="print.html">Impression</a></li>
+            <li><a href="strategy.html">Stratégie</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+      <section id="content" class="wrapper">
+        <h1>Notre travail</h1>
+        <section id="slider">
+          <img src="images/work/work_00.jpg" alt="Un peu de tout">
+          <img src="images/work/work_01.jpg" alt="Qui est là ?">
+          <img src="images/work/work_02.jpg" alt="BeBooking">
+          <img src="images/work/work_03.jpg" alt="Just Event">
+          <img src="images/work/work_04.jpg" alt="Sadat">
+        </section>
+        <p class="quote">“Tout ceci à la pointe de la perfection et de l’innovation.”</p>
+        <section class="col-a work">
+          <h2>Audiovisuel</h2>
+          <ul>
+            <li>Identité visuelle (logo,callibrage,marque)</li>
+            <li>Spot publicitaire TV-Radio</li>
+            <li>Sites internet</li>
+            <li>Montages audio-visuels (Clip de musique,etc.)</li>
+            <li>Magazines en tous genres</li>
+            <li>Images de synthèses<li>
+            <li>Photographies professionnelles</li>
+          </ul>
+        </section>
+        <section class="col-b work">
+          <h2>Rédaction</h2>
+          <ul>
+            <li>Communiqués de Presse</li>
+            <li>Discours, Speech</li>
+            <li>Traduction Français-Anglais Néerlandais</li>
+            <li>Correction approfondie de textes (Orthographes, fautes de style...)</li>
+          </ul>
+        </section>
+        <section class="col-b work">
+          <h2>Nos plus...</h2>
+          <ul>
+            <li>Photographie professionelle</li>
+            <li>Pub radiophonique</li>
+            <li>Dessins professionels</li>
+            <li>Relooking (aspect extérieur, parcs et jardins, architecture d’intérieur)</li>
+          </ul>
+        </section>
+      </section>
+      <div class="push"></div>
+    </div>
+    <footer>
+      <div class="wrapper">
+        <a href="http://rdstudio.be"><img src="images/logo-mini.png" alt="Logo RDStudio miniature"></a>
+        <a class="social-link" href="https://www.facebook.com/pages/Rd-Studio/183003248417842">.facebook</a>
+      </div>
+    </footer>
+    <script type="text/javascript">
+      $(window).load(function() {
+        $('#slider').nivoSlider({
+          effect:'random',
+          pauseTime:5000,
+          pauseOnHover:true,
+          prevText:'Précédent',
+          nextText:'Suivant',
+          controlNav:false
+        });
+      });
+    </script>
+    <script type="text/javascript">
+
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-18164446-2']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+
+    </script>
+  </body>
+</html>
