@@ -315,6 +315,10 @@ header nav ul li a:hover {
   color: #ccc;
 }
 
+#content .subh strong {
+  color: #cc9b4c;
+}
+
 .work ul li {
   margin: 7px 0;
   font-weight: 100;
