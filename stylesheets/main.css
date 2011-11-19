@@ -413,12 +413,12 @@ header nav ul li a:hover {
   margin: 0 0 0 95px;
 }
 
-#team #members .member ul li, .general li {
+#team #members .member ul li, .contact-info li {
   font-weight: 100;
   padding: 2px 0;
 }
 
-#team #members .member ul li abbr, .general li abbr {
+#team #members .member ul li abbr, .contact-info li abbr {
   font-weight: bold;
   color: #fff;
 }
@@ -430,11 +430,11 @@ header nav ul li a:hover {
   text-shadow: 0 1px 1px rgba(0,0,0,.65);
 }
 
-#team #members .member ul li.email a, .general li.email a {
+#team #members .member ul li.email a, .contact-info li.email a {
   color: #ccc;
 }
 
-#team #members .member ul li.email a:hover, .general li.email a:hover {
+#team #members .member ul li.email a:hover, .contact-info li.email a:hover {
   color: #fff;
 }
 
@@ -445,11 +445,11 @@ header nav ul li a:hover {
   margin-top: 1px;
 }
 
-.general li {
+.contact-info li {
   padding: 3px 0;
 }
 
-.general li abbr {
+.contact-info li abbr {
   display: inline-block;
   width: 80px;
 }
